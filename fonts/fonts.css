@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('Comfortaa-Regular.eot');
+    src: url('Comfortaa-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Comfortaa-Regular.woff2') format('woff2'),
+        url('Comfortaa-Regular.woff') format('woff'),
+        url('Comfortaa-Regular.ttf') format('truetype'),
+        url('Comfortaa-Regular.svg#Comfortaa-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Exo 2.0';
+    src: url('fonts/Exo20-Regular.eot');
+    src: url('fonts/Exo20-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Exo20-Regular.woff2') format('woff2'),
+        url('fonts/Exo20-Regular.woff') format('woff'),
+        url('fonts/Exo20-Regular.ttf') format('truetype'),
+        url('fonts/Exo20-Regular.svg#Exo2.0-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Times New Roman';
+    src: url('fonts/TimesNewRomanPSMT.eot');
+    src: url('fonts/TimesNewRomanPSMT.eot?#iefix') format('embedded-opentype'),
+        url('fonts/TimesNewRomanPSMT.woff2') format('woff2'),
+        url('fonts/TimesNewRomanPSMT.woff') format('woff'),
+        url('fonts/TimesNewRomanPSMT.ttf') format('truetype'),
+        url('fonts/TimesNewRomanPSMT.svg#TimesNewRomanPSMT') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

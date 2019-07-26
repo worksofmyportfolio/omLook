@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>omLook</title>
+	<link rel="stylesheet" href="font_awesome/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="media/media.css">
+</head>
+<body>
+	<section class="top">
+		<div class="container">
+			<div class="top_content">
+			<img src="img/logo.png" alt="logo" class="logo">
+            <h3 class="top_text">Автоматический обмен электронных валют <font color="#62ccb9">24/7</font></h3>
+            <div class="language">
+            	<h3 class="lang" onclick="lang_list()">Russian <i class="fa fa-caret-right" aria-hidden="true" id="icon"></i></h3>
+            	<div class="lang_list">
+            		<div id="english" class="rus_eng">
+            			<a href="#">English</a>
+            		</div>
+            		<div id="russian" class="rus_eng">
+            			<a href="#">Russian</a>
+            		</div>
+            	</div>
+            </div>
+
+            
+           	<div class="log_window">
+           	<div class="log_window_btn">
+           		<a href="#" id="login">Вход</a>
+           	    <a href="#" id="registration">Регистрация</a>
+           	</div>
+           	<img src="icon/user-(1).png" alt="">
+           </div>
+
+           <div class="menu">
+           	<a href="#">Вход</a>
+           </div>
+            
+
+
+			</div>
+
+
+		</div>
+	</section>
+
+	<div class="header">
+		<div class="container">
+			<div class="header_headline">
+				Вход в личный кабинет
+			</div>
+			<div class="customer_partner">
+				<div class="customer">
+					<p>Клиент</p>
+				</div>
+
+				<div class="partner">
+					<p>Партнёр</p>
+				</div>
+			</div>
+
+			<div class="email_pass_box">
+			<input type="email" id="email" placeholder="Электронная почта" class="email_pass" autocomplete="off">
+			<br>
+			<input type="password" id="password" placeholder="Пароль" class="email_pass">
+			<br><br>
+			<label class="label-check option">
+  <input type="checkbox" class="label-check__input">
+  <span class="label-check__new-input"></span>
+  <p>Запомнить меня</p>
+</label>
+
+        <div class="comein_btn">
+        	Войти
+        </div>
+
+        <div class="toreg_remidpass_box">
+        	<a href="#" id="remid_pass" class="links">Напомнить пароль</a>
+        	<a href="#" id="to_reg" class="links">Зарегистрироваться</a>
+        </div>
+        
+			</div>
+
+			<footer class="footer">
+          	<p><a href="#" class="footer_link"><i class="fa fa-question-circle-o" aria-hidden="true"></i> Тех. Поддержка</a></p>
+          	<p><a href="#" class="footer_link">Обмен</a></p>
+          	<p><a href="#" class="footer_link">О сервисе</a></p>
+          	<p><a href="#" class="footer_link">Тарифы</a></p>
+          	<p><a href="#" class="footer_link">Правила</a></p>
+          	<p><a href="#" class="footer_link">База знаний</a></p>
+          	<p><a href="#" class="footer_link">Политика возвратов</a></p>
+          </footer>
+
+
+		</div>
+	</div>
+
+ <section class="sec_2">
+		
+		<div class="container">
+			<p>У вас возникла острая необходимость обменять WebMoney на Яндекс.Деньги? А может быть, вы хотите перевести WebMoney 
+другому пользователю системы? Или ищите обменный пункт webmoney для вывода средств на банковскую карту? Мы знаем, 
+как вам помочь! Просто наберите в любой поисковой системе один из следующих запросов: «обмен интернет валют», «обмен 
+интернет денег», «обменник онлайн», «exchange WebMoney», «wm обменник» или «обменять wm». Поиск тут же приведет вас 
+на страницу, где собраны ссылки на самые популярные электронные обменники (обменники WebMoney, Яндекс Деньги, 
+RBKMoney и др.), среди которых на одной из первых позиций будет Netexchange.ru, который и производит необходимый 
+Вам обмен электронных валют.С развитием систем интернет-торговли появилась острая необходимость в универсальных 
+способах расчетов в сети. Так в сети одна за другой стали создаваться электронные платежные системы. 
+А вместе с их появлением пользователям понадобились обменники электронных валют, где можно без проблем обменять 
+электронные деньги различных платежных систем, осуществить перевод wm, обмен webmoney, вывести Яндекс.Деньги или 
+купить webmoney с минимальными затратами по выгодным курсам.Обмен электронных денег процедура достаточно простая, 
+особенно если ее оказывает профессиональный обменный сервис. Обмен электронных денег в Netexchange это еще и 
+выгодно, т.к. происходит по одним из самых низких курсов!</p>
+		</div>
+	</section>
+
+	<script>
+		function customer_partner() {
+	var customer = document.getElementsByClassName('customer')[0];
+    var partner = document.getElementsByClassName('partner')[0];
+
+    customer.onclick = function(){
+    	partner.style.background = 'none';
+    	customer.style.background = '#62ccb9';
+    }
+
+     partner.onclick = function(){
+    	customer.style.background = 'none';
+    	partner.style.background = '#62ccb9';
+    }
+
+}
+
+customer_partner();
+	</script>
+
+
+	<script src="script.js"></script>
+</body>
+</html>

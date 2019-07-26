@@ -1,0 +1,230 @@
+@media screen and (max-width: 1200px){
+
+}
+
+
+/*@media screen and (max-width: 1149px){
+	.line_elem{
+		margin-left: 1%;
+		margin-top: 10px;
+	}
+
+	.line_elem:nth-child(3){
+		margin-left: 0;
+	}
+}
+*/
+
+
+@media screen and (max-width: 1084px){
+	.discount_elem:last-child{
+    margin-left: 97px;
+ }
+}
+
+@media screen and (max-width: 1060px){
+	.menu{
+		display: block;
+	}
+
+	.log_window{
+		display: none;
+	}
+
+	.text_content{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.right_text{
+		margin-top: 30px;
+
+	}
+
+
+
+}
+
+
+@media screen and (max-width: 992px){
+    .footer{
+    	justify-content: space-between;
+    	text-align: center;
+    }
+
+    .footer p{
+    	margin-left: 10px;
+    	margin-right: 10px;
+
+    }
+
+    .footer p:nth-child(2){
+        margin-left: 0;
+    }
+
+    .footer p:last-child{
+	    margin-right: 10px;
+    }
+
+}
+
+
+@media screen and (max-width: 820px){
+
+}
+
+@media screen and(max-width: 803px){
+	
+}
+
+
+@media screen and (max-width: 768px){
+	.statistics{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.static_info{
+		text-align: center;
+		margin-top: 50px;
+	}
+
+
+	.footer{
+		justify-content: center;
+	}
+
+	.discount_elem{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.discounts{
+		justify-content: space-between;
+	}
+
+	.discount_elem:last-child{
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+
+ .discount_elem:first-child{
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+
+}
+
+
+@media screen and (max-width: 640px){
+
+}
+
+
+@media screen and (max-width: 580px){
+	.btn{
+		display: none;
+	}
+
+	table{
+		font-size: 10px;
+	}
+
+	.statistic{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.statistic_elem{
+		margin-top: 20px;
+	}
+
+	.services_rules{
+		display: none;
+	}
+
+	.services_rules_adapt{
+		display: initial;
+	}
+
+	.discount_elem{
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.discounts{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.discount_elem:last-child{
+    margin-left: 0;
+    margin-right: 0;
+ }
+
+ .discount_elem:first-child{
+    margin-left: 0;
+    margin-right: 0;
+ }
+
+	.info_content{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.info_item{
+		margin-left: 0;
+	}
+
+	.btn_adapt{
+		display: flex;
+	}
+
+	.top_text{
+		display: none;
+	}
+
+	.logo{
+		width: 100px;
+	}
+
+	.trade{
+		align-items: center;
+		flex-direction: column;
+
+	}
+
+	.give_away{
+		margin-bottom: 50px;
+	}
+   
+}
+
+
+@media screen and (max-width: 420px){
+
+}
+
+
+@media screen and (max-width: 375px){
+	.info_headline{
+		font-size: 20px;
+	}
+
+	 #email{
+    width: 310px;
+    height: 22px;
+ }
+
+ #password{
+    width: 310px;
+    height: 22px;
+    margin-top: 35px;
+ }
+
+}
+
+
+@media screen and (max-width: 340px){
+	
+}
